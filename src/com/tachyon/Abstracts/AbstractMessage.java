@@ -1,3 +1,5 @@
+package com.tachyon.Abstracts;
+
 import java.util.Date;
 
 public abstract class AbstractMessage {
@@ -5,5 +7,6 @@ public abstract class AbstractMessage {
     private String to;
     private Date sent;
     private String text;
+
 
 }
